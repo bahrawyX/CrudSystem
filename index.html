@@ -126,26 +126,28 @@
                 <label for="searchInput" class="srch">Search</label>
                 <input type="text " id="searchInput" class="form-control " onkeyup="searchInputs()" placeholder="By Product Name...">
             </div>
-            <table class="table data">
-                <thead>
-                    <th>Id</th>
-                    <th>Name</th>
-                    <th>Category</th>
-                    <th>Price</th>
-                    <th>Taxes</th>
-                    <th>Ads</th>
-                    <th>Discount</th>
-                    <th>Total</th>
-                    <th>Descreption</th>
-                    <th>Update</th>
-                    <th>Delete</th>
-                </thead>
-                <tbody id="tbody">
+            <div class="table-responsive">
+                <table class="table  data">
+                    <thead>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Taxes</th>
+                        <th>Ads</th>
+                        <th>Discount</th>
+                        <th>Total</th>
+                        <th>Descreption</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+                <div class="text-center">
+                    <button class=" btn btn-outline-danger" id="DELETEALL" onclick="deletAll()">DELETE ALL</button>
+                </div>
 
-                </tbody>
-            </table>
-            <div class="text-center">
-                <button class=" btn btn-outline-danger" id="DELETEALL" onclick="deletAll()">DELETE ALL</button>
             </div>
         </div>
         <script src="js/jquery-3.6.3.min.js"></script>
