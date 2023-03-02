@@ -1,0 +1,328 @@
+#productDesc {
+    resize: none;
+}
+
+body {
+    /* background-color: #394C48;
+     */
+}
+
+a {
+    text-decoration: none;
+    color: #eee8e8;
+}
+
+
+/* .cord {
+    background-color: #47615D !important;
+}
+
+.cd {
+    background-color: #47615D !important;
+} */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #000 solid 1px !important;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #000 solid 1px !important;
+}
+
+.total {
+    cursor: not-allowed !important;
+    /* background-color: #fff !important; */
+}
+
+#updateBTN {
+    display: none;
+}
+
+.srch {
+    font-size: 20px;
+}
+
+table tr {
+    border: #000;
+}
+
+.disc {
+    position: absolute;
+    right: 260px;
+    top: 464px;
+    display: flex;
+    width: 170px;
+    height: 50px;
+}
+
+
+/* .discUp {
+    display: none !important;
+    position: absolute;
+    right: 100px;
+    top: 386px;
+    display: flex;
+    width: 170px;
+    height: 50px;
+}
+
+.discUp .icon {
+    margin-right: 50px;
+    margin-top: 12px;
+} */
+
+.disc .icon {
+    margin-right: 50px;
+    margin-top: 18px;
+}
+
+.ic {
+    animation-name: leftmove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.5s;
+}
+
+.disc .link {
+    margin-top: 5px;
+}
+
+@keyframes leftmove {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 30px;
+        opacity: 1;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.deletedItems {
+    width: 20%;
+    margin-top: 10px;
+}
+
+.deleic {
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+.deltext {
+    display: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+.delhead {
+    display: none;
+}
+
+.deletedItems table tr td {}
+
+.delhead {}
+
+#delbody {
+    display: none;
+}
+
+#delAll {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .disc {
+        position: absolute;
+        right: 0px;
+        top: 464px;
+        display: flex;
+        width: 170px;
+        height: 50px;
+    }
+    .disc .icon {
+        margin-right: 50px;
+        margin-top: 18px;
+    }
+    .disc .link {
+        margin-top: 5px;
+    }
+    .deletedItems {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .deleic {
+        margin-top: 9px;
+        margin-left: 20px;
+    }
+    .deltext {
+        display: none;
+    }
+    i {
+        cursor: pointer;
+    }
+    .delhead {
+        display: none;
+    }
+    .deletedItems table tr td {
+        display: none;
+    }
+    #delAll {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .disc {
+        position: absolute;
+        right: 0px;
+        top: 464px;
+        display: flex;
+        width: 170px;
+        height: 50px;
+    }
+    .disc .icon {
+        margin-right: 50px;
+        margin-top: 18px;
+    }
+    .disc .link {
+        margin-top: 5px;
+    }
+    .deletedItems {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .deleic {
+        margin-top: 9px;
+        margin-left: 20px;
+    }
+    .deltext {
+        display: none;
+    }
+    i {
+        cursor: pointer;
+    }
+    .delhead {
+        display: none;
+    }
+    .deletedItems table tr td {
+        display: none;
+    }
+    #delAll {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .disc {
+        position: absolute;
+        right: 180px !important;
+        top: 464px;
+        display: flex;
+        width: 170px;
+        height: 50px;
+    }
+    .data {
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .disc {
+        position: absolute;
+        right: 100px !important;
+        top: 464px;
+        display: flex;
+        width: 170px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .data {
+        width: 100% !important;
+        font-size: 10px !important;
+        font-weight: 500px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .data {
+        width: 100% !important;
+        font-size: 10px !important;
+        font-weight: 500px;
+    }
+    tr {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .disc {
+        position: absolute;
+        right: 77px !important;
+        top: 464px;
+        display: flex;
+        width: 170px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .disc {
+        position: absolute;
+        right: 60px !important;
+        top: 464px;
+        display: flex;
+        width: 170px;
+        height: 50px;
+    }
+    .prod {
+        margin-top: 32px !important;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .disc {
+        display: none;
+    }
+    .dic {
+        margin-top: 32px !important;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .prod {
+        margin-top: 0px !important;
+    }
+}
